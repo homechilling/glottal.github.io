@@ -24,7 +24,7 @@ p { margin: 0 0 .75em 0; }
 a { color:#de9000; }
 a:hover { color: #009eff; }
 
-footer { font-size: .85em; color: #9ba0bd; background-color: #575c7a; padding: 10px 10px 10px 0px; }
+footer { font-size: .85em; color: #01466e; background-color: #fff; padding: 10px 10px 10px 0px; }
 
 a.cta {
 	text-transform: uppercase;

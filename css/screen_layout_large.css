@@ -33,16 +33,16 @@ header a.logo {
 	background-image: url(../images/glottal_logo_large.png);
 }
 
-article { padding: 10px 20px 10px 0px; }
+article { padding: 10px 10px 10px 20px; }
 
-.promo_container { padding: 50px 0px 15px 0px; }
+.promo_container { padding: 50px 0px 15px 20px; }
 .promo_container .promo {
 	width: 33%;
 	float: left;
 	background-position: 0px 3px;
-	padding: 220px 0px 0px 0px;
+	padding: 230px 0px 0px 0px;
 }
-.promo_container .promo .content { padding: 0px 30px 0px 0px; }
+.promo_container .promo .content { padding: 0px 10px 0px 0px; }
 
 nav { top: 148px; }
 nav a { margin: 12px 0px 10px 20px; }
@@ -134,3 +134,10 @@ border-radius:5px;
 #cssmenu ul ul a {font-weight: normal; }
 #cssmenu ul:after {content: '.'; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
 * html #cssmenu  ul {height: 1%;}
+
+.rothenberg_pic{
+	padding: 5px 10px 0px 20px
+}
+.rothenberg_text{
+	padding: 0px 0px 0px 0px
+}
