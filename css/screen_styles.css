@@ -19,11 +19,10 @@ body {
 
 h1 { font-size: 2em; font-weight: normal; color: #01466e; margin: 0 0 .5em 0; }
 h2 { font-size: 1.7em; margin: 0 0 1em 0; }
-h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 1em 0; color: #01466e;}
 p { margin: 0 0 .75em 0; }
-a { color:#de9000; }
+a { color:#01466e; }
 a:hover { color: #009eff; }
-
 footer { font-size: .85em; color: #01466e; background-color: #fff; padding: 10px 10px 10px 0px; }
 
 a.cta {
@@ -57,3 +56,4 @@ nav a {
 nav a:hover { color: #fff; }
 
 .clear-fix { clear: both; line-height: 1px; }
+
