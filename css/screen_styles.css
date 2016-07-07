@@ -45,9 +45,9 @@ a.cta:hover {background-position: right -50px;}
 .promo.two { background-image: url(../images/Nasal_promo.gif); }
 .promo.three { background-image: url(../images/Subglottal_promo.gif); }
 
+
 nav a {
 	color: #f5a06e;
-	/* text-transform: uppercase; */
 	text-decoration: none;
 	display: inline-block;
 	font-weight: bold;
