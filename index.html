@@ -13,7 +13,11 @@
 		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)"   href="css/screen_layout_small.css"/>
 		<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)"  href="css/screen_layout_medium.css"/>
 		<link href="jquery-evoslider-lite-files/css/default/default.css" rel="stylesheet" />
+		
+		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		
+		
 		<!--link href="jquery-evoslider-lite-files/css/default/reset.css" rel="stylesheet" /-->
 		<link href="jquery-evoslider-lite-files/css/evoslider.css" rel="stylesheet" />
 		<script src="jquery-evoslider-lite-files/js/jquery-1.7.1.min.js"></script>
@@ -102,29 +106,56 @@
 			</div>
 			<!-- end evo slider -->
             <script type="text/javascript">
-                $("#mySlider").evoSlider({
-                    mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
-                    width: 960,                         // The width of slider
-                    height: 360,                        // The height of slider
-                    slideSpace: 5,                      // The space between slides
+				if ($(window).width() > 1023) {
+					$("#mySlider").evoSlider({
+						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
+						width: 960,                         // The width of slider
+						height: 360,                        // The height of slider
+						slideSpace: 5,                      // The space between slides
 
-                    mouse: true,                        // Enables mousewheel scroll navigation
-                    keyboard: true,                     // Enables keyboard navigation (left and right arrows)
-                    speed: 500,                         // Slide transition speed in ms. (1s = 1000ms)
-                    easing: "swing",                    // Defines the easing effect mode
-                    loop: true,                         // Rotate slideshow
+						mouse: true,                        // Enables mousewheel scroll navigation
+						keyboard: true,                     // Enables keyboard navigation (left and right arrows)
+						speed: 500,                         // Slide transition speed in ms. (1s = 1000ms)
+						easing: "swing",                    // Defines the easing effect mode
+						loop: true,                         // Rotate slideshow
 
-                    autoplay: false,                     // Sets EvoSlider to play slideshow when initialized
-                    interval: 5000,                     // Slideshow interval time in ms
-                    pauseOnHover: true,                 // Pause slideshow if mouse over the slide
-                    pauseOnClick: true,                 // Stop slideshow if playing
+						autoplay: false,                     // Sets EvoSlider to play slideshow when initialized
+						interval: 5000,                     // Slideshow interval time in ms
+						pauseOnHover: true,                 // Pause slideshow if mouse over the slide
+						pauseOnClick: true,                 // Stop slideshow if playing
 
-                    directionNav: true,                 // Shows directional navigation when initialized
-                    directionNavAutoHide: false,        // Shows directional navigation on hover and hide it when mouseout
+						directionNav: true,                 // Shows directional navigation when initialized
+						directionNavAutoHide: false,        // Shows directional navigation on hover and hide it when mouseout
 
-                    controlNav: true,                   // Enables control navigation
-                    controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
-                });
+						controlNav: true,                   // Enables control navigation
+						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
+					});
+				}
+				else {
+					$("#mySlider").evoSlider({
+						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
+						width: 660,                         // The width of slider
+						height: 260,                        // The height of slider
+						slideSpace: 5,                      // The space between slides
+
+						mouse: true,                        // Enables mousewheel scroll navigation
+						keyboard: true,                     // Enables keyboard navigation (left and right arrows)
+						speed: 500,                         // Slide transition speed in ms. (1s = 1000ms)
+						easing: "swing",                    // Defines the easing effect mode
+						loop: true,                         // Rotate slideshow
+
+						autoplay: false,                     // Sets EvoSlider to play slideshow when initialized
+						interval: 5000,                     // Slideshow interval time in ms
+						pauseOnHover: true,                 // Pause slideshow if mouse over the slide
+						pauseOnClick: true,                 // Stop slideshow if playing
+
+						directionNav: true,                 // Shows directional navigation when initialized
+						directionNavAutoHide: false,        // Shows directional navigation on hover and hide it when mouseout
+
+						controlNav: true,                   // Enables control navigation
+						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
+					});
+				}
             </script>
 
       <!--End of banner -->
