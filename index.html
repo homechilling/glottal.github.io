@@ -15,7 +15,7 @@
 		<link href="jquery-evoslider-lite-files/css/default/default.css" rel="stylesheet" />
 		
 		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script-->
 		
 		
 		<!--link href="jquery-evoslider-lite-files/css/default/reset.css" rel="stylesheet" /-->
@@ -69,10 +69,10 @@
 						<dt><div class="cn_content_img_1"><img src="images/Oro_Nasal_Mask.png" alt="" /></div></dt>
 						<dd>
 							<div class="cn_content" style="top:5px;">
-								<div class="cn_content_img_1"><img src="images/Oro_Nasal_Mask.png" alt="" /></div>
+								<div class="cn_content_img_1"><img class="cn_content_img_one" src="images/Oro_Nasal_Mask.png" alt="" /></div>
 								<center>
-									<div class="cn_content_head_1" style="left:272px"> Oro Nasal Mask</div>
-									<div class="cn_category_sub_1" style="left:280px"><strong>Proprietary Pneumotach Technology</strong></div>
+									<div class="cn_content_head_1"> Oro Nasal Mask</div>
+									<div class="cn_category_sub_1"><strong>Proprietary Pneumotach Technology</strong></div>
 									<div class="cn_category_detail_1">
 									Voice transparent<br />
 									circumferentially vented (CV) mask design<br /><br />
@@ -106,7 +106,7 @@
 			</div>
 			<!-- end evo slider -->
             <script type="text/javascript">
-				if ($(window).width() > 1023) {
+				if($(window).width() >= 1024){
 					$("#mySlider").evoSlider({
 						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
 						width: 960,                         // The width of slider
@@ -131,11 +131,11 @@
 						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
 					});
 				}
-				else {
+				else if ($(window).width() >= 801 && $(window).width() < 1024){
 					$("#mySlider").evoSlider({
 						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
-						width: 660,                         // The width of slider
-						height: 260,                        // The height of slider
+						width: 768,                         // The width of slider
+						height: 288,                        // The height of slider
 						slideSpace: 5,                      // The space between slides
 
 						mouse: true,                        // Enables mousewheel scroll navigation
@@ -155,6 +155,9 @@
 						controlNav: true,                   // Enables control navigation
 						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
 					});
+				}
+				else{
+					//left a big blank on phone
 				}
             </script>
 
