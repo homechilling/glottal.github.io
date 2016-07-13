@@ -1,0 +1,392 @@
+ * {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 180%;
+	line-height: 120%
+	padding: 5% 0;
+}
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+h3 {
+	line-height: 110%;
+	padding: 5% 0;
+}
+p {
+	padding: 1%;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+header {
+	background: #01466e;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+#logo {
+	margin: 0px;
+	float: left;
+	width:251px;
+	height: 86px;
+	background: url(../images/glottal_new_logo.png) no-repeat center;
+}
+nav {
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+#menu-icon {
+	display: hidden;
+	width: 160px;
+	height:80px;
+	background: url(../images/menu_icon.png) no-repeat center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	//padding: 10px;
+}
+/*.current {
+	color: #FFF;
+	text-decoration: underline;
+}*/
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+}
+section{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 4%;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	padding: 3%;
+}
+ul.gym li{
+	padding-left: 3%;
+}
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+}
+footer p, footer h3 {
+	color: #FFF;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+a.cta {
+	color: #01466e;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 0 0;
+	padding: 0px 12px 0px 0px;
+	background: url(../images/cta_arrow.png) no-repeat right 0px;
+	}
+a.cta:hover {background-position: right -50px; color: #009eff;}
+ul.social li {
+	display: inline;
+}
+ul.social li img {
+	height: 50px;
+}
+footer.second {
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+
+
+
+/*Style for menu links*/
+.only-nav>li{
+	padding: 0px 0px 0px 0px;
+}
+.only-nav li a {
+	display:block;
+	min-width:80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*color: #fff;*/
+	/*background: #2f3036;*/
+	text-decoration: none;
+}
+li:hover a {
+	background: #7ab1d0;
+	color: #000;
+}
+/*Style for dropdown links*/
+li:hover ul a {
+	background: #01466e;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	width: 235px
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+	display: block;
+	background: #7ab1d0;
+	color: #000;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	//width: auto;
+	//max-width: 150px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #7ab1d0;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+	width: 235px;
+	float: right;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+
+
+
+/*----------------------MEDIA!!!-------------------------------*/
+@media screen and (max-width: 578px) {
+	body {
+		position: absolute;
+	}
+	.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #7ab1d0;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+	width: 100px;
+	float: right;
+}
+}
+@media screen and (max-width: 1250px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		/*display: inline-block;*/
+		position: absolute;
+		padding: 0px 0px 0px 0px;
+		//top: 3px;
+		//right: 5px;
+	}
+	nav>ul {
+		display: none;
+		position: absolute;
+		//padding: 20px;
+		background: #405580;
+		//border: 1px solid #FFF;
+		right: 0px;
+		top: 83px;
+		width: 350px;
+		//border-radius: 2px 0 2px 2px;
+	}
+	nav>ul>li {
+		display: block;
+		text-align: center;
+		width: 350px;
+		padding: 0px 0;
+		margin: 0;
+	}
+	nav>ul>li:active>ul {
+		display: none;
+		position: absolute;
+		//padding: 20px;
+		background: #405580;
+		//border: 1px solid #FFF;
+		right: 0px;
+		top: 83px;
+		width: 350px;
+		//border-radius: 2px 0 2px 2px;
+	}
+	li:hover a {
+		background: #7ab1d0;
+		color: #000;
+	}
+	/*Style for dropdown links*/
+	li:hover>ul a {
+		background: #01466e;
+		color: #fff;
+		height: 40px;
+		line-height: 40px;
+		width: 350px;
+		text-align: center;
+	}
+	li:hover>ul {
+		top: 143px;
+	}
+	/*Hover state for dropdown links*/
+	li:hover>ul a:hover {
+		display: block;
+		background: #7ab1d0;
+		color: #000;
+	}
+	/*
+	nav:active ul>li>ul{
+		display: none;
+		position: absolute;
+		//padding: 20px;
+		background: #405580;
+		//border: 1px solid #FFF;
+		right: 0px;
+		top: 83px;
+		width: 250px;
+		//border-radius: 2px 0 2px 2px;
+	}
+	*/
+	/*
+	nav:active>ul>li {
+		display: block;
+	}
+	*/
+	section {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	aside {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	/*Make dropdown links appear inline*/
+	//ul {
+	//	position: static;
+	//	display: none;
+	//}
+	///*Create vertical spacing*/
+	//li {
+	//	margin-bottom: 1px;
+	//}
+	///*Make all menu links full width*/
+	///*
+	//ul li, li a {
+	//	width: 100%;
+	//}
+	//*/
+	//li a {
+	//	width: 235px;
+	//}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	
+	
+}
+

@@ -1,242 +1,118 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-		
-		<meta charset="utf-8">
-		
-		
-		<title>Glottal</title>
-		<link rel="stylesheet" type="text/css" href="css/screen_styles.css" />
-		<link rel="stylesheet" type="text/css" href="css/screen_layout_large.css" />
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)"   href="css/screen_layout_small.css"/>
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)"  href="css/screen_layout_medium.css"/>
-		<link href="jquery-evoslider-lite-files/css/default/default.css" rel="stylesheet" />
-		
-		
-		<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script-->
-		
-		
-		<!--link href="jquery-evoslider-lite-files/css/default/reset.css" rel="stylesheet" /-->
-		<link href="jquery-evoslider-lite-files/css/evoslider.css" rel="stylesheet" />
-		<script src="jquery-evoslider-lite-files/js/jquery-1.7.1.min.js"></script>
-		<script src="jquery-evoslider-lite-files/js/jquery.easing.1.3.js"></script>
-		<script src="jquery-evoslider-lite-files/js/jquery.evoslider.lite-1.1.0.js"></script>
-		<script src="jquery-evoslider-lite-files/js/jquery.evoslider.lite-1.1.0.min.js"></script>
-		<script src="js/cufon-yui.js" type="text/javascript"></script>
-		<script src="js/Bebas_400.font.js" type="text/javascript"></script>
-		<link href="favicon.ico" />
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		
-	</head>			
-	<body>
-		<div class="page">
-			
-			<header>
-				<a class="logo" href="#"></a>
-				<div class="topbar">
-					<div class="top-info">
-						<div class="contact_heading">
-							How can we help you?
-						</div>
-						<p>
-						<br />
-							<div class="ph">Ph: +1 315 422 1213</div> <br>
-							<div id="search">
-								<script>
-									(function () {
-										var cx = '008840200205516682870:yl-4zn3gko4';
-										var gcse = document.createElement('script');
-										gcse.type = 'text/javascript';
-										gcse.async = true;
-										gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-											'//www.google.com/cse/cse.js?cx=' + cx;
-										var s = document.getElementsByTagName('script')[0];
-										s.parentNode.insertBefore(gcse, s);
-									})();
-								</script>
-								<gcse:search></gcse:search>
-							</div>
-					</div>
-				</div>
-			</header>
-			<div class="place_holder">
-				<div id="mySlider" class="evoslider default">
-					<dl>
-						<dt><div class="cn_content_img_1"><img src="images/Oro_Nasal_Mask.png" alt="" /></div></dt>
-						<dd>
-							<div class="cn_content" style="top:5px;">
-								<div class="cn_content_img_1"><img class="cn_content_img_one" src="images/Oro_Nasal_Mask.png" alt="" /></div>
-								<center>
-									<div class="cn_content_head_1"> Oro Nasal Mask</div>
-									<div class="cn_category_sub_1"><strong>Proprietary Pneumotach Technology</strong></div>
-									<div class="cn_category_detail_1">
-									Voice transparent<br />
-									circumferentially vented (CV) mask design<br /><br />
-									Soft and Flexible, Noninvasive,<br />
-									Biocompatible, non-allergenic material
-									<br /><br /><br />
-									</div>
-								</center>
-							</div>
-						</dd>
-						<dt>slide two</dt>
-						<dd>
-							<div class="cn_content" style="top:5px;">
-								<div class="cn_content_img_1"><img src="images/NV.png" alt="" /></div>
-								<div class="cn_content_head_1" style="left:292px"> Nasality Visualization</div>
-								<div class="cn_category_sub_1" style="left:350px"><strong>A Complete system for Nasometry</strong></div>
-								<center>
-									<div class="cn_category_detail_1">
-										Noninvasively visualize and quantify<br />
-										the effectiveness of velopharyngeal closure<br /><br />
-										USB operation with color-differentiated display.<br />
-										Available in 3 configurations: Nasal Emission, Nasalance or complete<br />
-										Nasality Visualization System
-										<br /><br /><br />
-									</div>
-								</center>
-							</div>
-						</dd>
-					</dl>
-				</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Glottal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/blueberry.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+			<!--a href="#" id="menu-icon"></a-->
+			<label for="show-menu" class="show-menu">Show/Hide Menu</label>
+			<input type="checkbox" id="show-menu" role="button">
+			<ul id="menu" class="only-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li>
+					<a href="#">&nbsp &nbsp &nbsp Research and Teaching Products &nbsp &nbsp &nbsp</a>
+					<ul class="hidden">
+						<li><a href="#">Aeroview System</a></li>
+						<li><a href="#">Dualview System</a></li>
+						<li><a href="#">Waveview System</a></li>
+						<li><a href="#">The Nasal Emission System</a></li>
+						<li><a href="#">The Nasalance System</a></li>
+						<li><a href="#">The NVS System</a></li>
+						<li><a href="#"><span>Subglottal Pressure Measurement</span></a></li>
+					</ul>
+				</li>
+				<li><a href="#">&nbsp &nbsp &nbsp Electroglottograph &nbsp &nbsp &nbsp</a></li>
+				<li><a href="#"> &nbsp &nbsp &nbsp Contact Us &nbsp &nbsp &nbsp</a></li>
+				<li><a href="#">&nbsp &nbsp &nbsp View Our Product Catalog &nbsp &nbsp &nbsp</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					<li><img src="images/Oro_Nasal_Mask_Slide.jpg" /></li>
+					<li><img src="images/Nasality_Visualization_Slide.jpg" /></li>
+					<!--li><img src="http://www.w3newbie.com/wp-content/uploads/push-ups.png" /></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/chest-fly.png" /></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/training.png" /></li-->
+				</ul>
 			</div>
-			<!-- end evo slider -->
-            <script type="text/javascript">
-				if($(window).width() >= 1024){
-					$("#mySlider").evoSlider({
-						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
-						width: 960,                         // The width of slider
-						height: 360,                        // The height of slider
-						slideSpace: 5,                      // The space between slides
-
-						mouse: true,                        // Enables mousewheel scroll navigation
-						keyboard: true,                     // Enables keyboard navigation (left and right arrows)
-						speed: 500,                         // Slide transition speed in ms. (1s = 1000ms)
-						easing: "swing",                    // Defines the easing effect mode
-						loop: true,                         // Rotate slideshow
-
-						autoplay: false,                     // Sets EvoSlider to play slideshow when initialized
-						interval: 5000,                     // Slideshow interval time in ms
-						pauseOnHover: true,                 // Pause slideshow if mouse over the slide
-						pauseOnClick: true,                 // Stop slideshow if playing
-
-						directionNav: true,                 // Shows directional navigation when initialized
-						directionNavAutoHide: false,        // Shows directional navigation on hover and hide it when mouseout
-
-						controlNav: true,                   // Enables control navigation
-						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
-					});
-				}
-				else if ($(window).width() >= 801 && $(window).width() < 1024){
-					$("#mySlider").evoSlider({
-						mode: "slider",                  // Sets slider mode ("accordion", "slider", or "scroller")
-						width: 768,                         // The width of slider
-						height: 288,                        // The height of slider
-						slideSpace: 5,                      // The space between slides
-
-						mouse: true,                        // Enables mousewheel scroll navigation
-						keyboard: true,                     // Enables keyboard navigation (left and right arrows)
-						speed: 500,                         // Slide transition speed in ms. (1s = 1000ms)
-						easing: "swing",                    // Defines the easing effect mode
-						loop: true,                         // Rotate slideshow
-
-						autoplay: false,                     // Sets EvoSlider to play slideshow when initialized
-						interval: 5000,                     // Slideshow interval time in ms
-						pauseOnHover: true,                 // Pause slideshow if mouse over the slide
-						pauseOnClick: true,                 // Stop slideshow if playing
-
-						directionNav: true,                 // Shows directional navigation when initialized
-						directionNavAutoHide: false,        // Shows directional navigation on hover and hide it when mouseout
-
-						controlNav: true,                   // Enables control navigation
-						controlNavAutoHide: false           // Shows control navigation on mouseover and hide it when mouseout
-					});
-				}
-				else{
-					//left a big blank on phone
-				}
-            </script>
-
-      <!--End of banner -->
-			<div class="promo_container">
-				
-				<div class="promo one">
-					<div class="content">
-						<h3>Aeroview System</h3>
-						<p>records oral airflow, nasal airflow,  and subglottal pressure; calculates syllable rate, glottal flow resistance...</p>
-						<p><a class="cta" href="">read more</a></p>
-					</div>
-				</div>
-				
-				<div class="promo two">
-					<div class="content">
-						<h3>Nasal Visualization</h3>
-						<p>measures and displays the nasalance in vowals and nasal emission of airflow in pressure consonants...</p>
-						<p><a class="cta" href="">read more</a></p>
-					</div>
-				</div>
-				
-				<div class="promo three">
-					<div class="content">
-						<h3>Subglottal Pressure</h3>
-						<p>handheld, battery-operated devices that gives real-time estimates of subglottal pressure...</p>
-						<p><a class="cta" href="">read more</a></p>
-					</div>
-				</div>
-				
-				<div class="clear-fix"></div>
-				
-			</div>
-			
-			<article>
-				<h1>Welcome to Glottal Enterprises</h1>
-				<p>Founded by Dr. Martin Rothenberg, Glottal Enterprises, a Syracuse-NY based company, has been at the forefront of research and innovation in the field of voice measurement and speech research.
-			</article>
-			<img class="rothenberg_pic" src="images/Martin2.jpg" style="float:left;width:120px;height:155px;">
-			<article class="rothenberg_text">
-				Dr. Martin Rothenberg, is Professor Emeritus of Electrical and Computer Engineering at Syracuse University where he directed the Speech Research Laboratory from 1966 to 1992. This laboratory specialized in research on the human voice and in the development of non-invasive techniques for the measurement of vocal function during speech and singing. 
-				</br>
-				Dr. Rothenberg was a NDEA Title IV Fellow during his graduate studies at the University of Michigan, from 1960 to 1964. He was a Fulbright Senior Research Fellow in Sweden in 1980, studying the voice and speech patterns of children. In 1993 he received the Fifth Annual Quintana Voice Research Award of Achievement, awarded by The Voice Foundation. Dr. Rothenberg is the author of numerous papers related to the use of the human voice in speech and singing, and he holds four patents for speech-related measurement and training devices and systems.</p>
-			</article>
-			
-			<nav class="menu_div" id="cssmenu">
-				<ul>
-                        <li><a href="index.html"><span>Home</span></a></li>
-                        <li><a href="about_us.html"><span>About</span></a></li>
-                        <li class="has-sub">
-                            <a href="product.html"><span>Research and Teaching Products</span></a>
-                            <ul>
-                                <li>
-                                    <a href="Aeroview.html"><span>Aeroview System</span></a>
-                                </li>
-                                <li><a href="Dualview.html"><span>Dualview System</span></a></li>
-                                <li><a href="Waveview.html"><span>Waveview System</span></a></li>
-                                <li><a href="theNEMSystem.html"><span>The Nasal Emission System</span></a></li>
-                                <li><a href="theNASSystem.html"><span>The Nasalance System</span></a></li>
-                                 <li><a href="NVSsystem.html"><span>The NVS System</span></a></li>
-                                <li><a href="PGSeries.html"><span>Subglottal Pressure Measurement System</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Electroglottographs.html"><span>Electroglottograph</span></a>
-                        </li>
-                        <li class="last"><a href="Contact_Us.php"><span>Contact Us</span></a></li>
-
-                       <li class="last">
-                            <a href="Documents/Catalog.pdf" target=_new” onclick=”_gaq.push(['_trackEvent','Download','PDF',this.href]);”>View Our Product Catalog</a>
-
-                            </li>
-                   
-                    </ul>
-			</nav>
-			
-			<footer>
-				&copy: Glottal Enterprises Incorporated
-			</footer>
-		
-	</body>
+		</div>
+	</div>
+	<section>
+		<img src="images/Aeroview.jpg" />
+		<h1>Aeroview System</h1>
+		<p>records oral airflow, nasal airflow, and subglottal pressure; calculates syllable rate, glottal flow resistance...</p>
+		<p><a class="cta" href="">read more</a></p>
+	</section>
+	<section>
+		<img src="images/NEM.jpg" />
+		<h1>Nasal Visualization</h1>
+		<p>measures and displays the nasalance in vowals and nasal emission of airflow in pressure consonants...</p>
+		<p><a class="cta" href="">read more</a></p>
+	</section>
+	<section>
+		<img src="images/PG.jpg" />
+		<h1>Subglottal Pressure</h1>
+		<p>handheld, battery-operated devices that gives real-time estimates of subglottal pressure...</p>
+		<p><a class="cta" href="">read more</a></p>
+	</section>
+	<div class="clear"></div>
+	<article>
+		<img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" />
+	</article>
+	<aside>
+		<h2>Our Group Class Schedule:</h2>
+		<ul class="gym">
+			<li><h3>Class Schedule</h3></li>
+			<li><h3>Class Schedule</h3></li>
+			<li><h3>Class Schedule</h3></li>
+			<li><h3>Class Schedule</h3></li>
+			<li><h3>Class Schedule</h3></li>
+		</ul>
+	</aside>
+	<div class="clear"></div>
+	<footer>
+		<section>
+			<h3><b>The Gym</b></h3>
+			<p><b>215-555-5555</b><br><br>
+			address<br>
+			address<br>
+			email<br>
+		</section>
+		<section>
+			<h3>Connect With Us!</h3>
+			<ul class="social">
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+			</ul>
+		</section>
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" />
+		</section>
+	</footer>
+	<footer class="second">
+		<p>&copy Glottal Enterprises Incorporated 2016.</p>
+	</footer>
+</body>
 </html>
