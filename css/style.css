@@ -127,7 +127,7 @@ ul.gym li{
 	//padding-left: 3%;
 }
 footer {
-	background: #333333;
+	background: #01466e;
 	width: 100%;
 	overflow: hidden;
 	opacity: 0.90;
@@ -157,8 +157,8 @@ ul.social li img {
 	height: 50px;
 }
 footer.second {
-	border-top: 1px solid #4D4E50;
-	background-color: #333333;
+	border-top: 1px solid #01466e;
+	background-color: #01466e;
 	max-height: 50px;
 	text-align: center;
 	opacity: 0.95;
@@ -258,6 +258,9 @@ input[type=checkbox]:checked ~ #menu{
 @media screen and (max-width: 578px) {
 	body {
 		position: absolute;
+	}
+	.welcome {
+		padding: 350px 0px 0px 0px;
 	}
 	.show-menu {
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -361,16 +364,18 @@ input[type=checkbox]:checked ~ #menu{
 	}
 	article {
 		float: left;
-		width: 100%;
+		width: 230px;
 		margin: 0;
-		padding: 0;
+		padding: 10px;
 	}
+	/*
 	aside {
 		float: left;
 		width: 100%;
 		margin: 0;
 		padding: 0;
 	}
+	*/
 	/*Make dropdown links appear inline*/
 	//ul {
 	//	position: static;
