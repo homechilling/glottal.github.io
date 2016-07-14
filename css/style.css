@@ -308,6 +308,7 @@ input[type=checkbox]:checked ~ #menu{
 		padding: 0px 0;
 		margin: 0;
 	}
+	/*
 	nav>ul>li:active>ul {
 		display: none;
 		position: absolute;
@@ -319,6 +320,7 @@ input[type=checkbox]:checked ~ #menu{
 		width: 350px;
 		//border-radius: 2px 0 2px 2px;
 	}
+	*/
 	li:hover a {
 		background: #7ab1d0;
 		color: #000;
