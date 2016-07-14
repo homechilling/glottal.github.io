@@ -6,7 +6,7 @@
 body {
 	background: #f0f0f0;
 	font: 14px/20px Arial, San-Serif;
-	color: #555;
+	color: #000;
 	margin: 0;
 }
 h1 {
@@ -57,9 +57,9 @@ header {
 #logo {
 	margin: 0px;
 	float: left;
-	width:251px;
+	width:282px;
 	height: 86px;
-	background: url(../images/glottal_new_logo.png) no-repeat center;
+	background: url(../images/glottalNewLogo.png) no-repeat center;
 }
 nav {
 	float: right;
@@ -131,6 +131,7 @@ footer {
 	width: 100%;
 	overflow: hidden;
 	opacity: 0.90;
+	text-align: center;
 }
 footer p, footer h3 {
 	color: #FFF;
@@ -163,8 +164,8 @@ footer.second {
 	text-align: center;
 	opacity: 0.95;
 }
-div.class {
-	padding 10px 10px 10px 10px;
+div.welcome {
+	max-width:1800px;
 }
 
 
@@ -276,7 +277,7 @@ input[type=checkbox]:checked ~ #menu{
 		padding: 50px 0px 0px 0px;
 	}
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
 	header {
 		position: absolute;
 	}
