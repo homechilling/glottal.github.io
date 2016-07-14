@@ -260,10 +260,9 @@ input[type=checkbox]:checked ~ #menu{
 	color: #fff;
 	background: #7ab1d0;
 	text-align: center;
-	padding: 10px 0;
+	padding: 15px 0;
 	display: none;
-	width: 100px;
-	float: right;
+	width: 60px;
 }
 }
 @media screen and (max-width: 1250px) {
