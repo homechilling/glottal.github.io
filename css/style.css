@@ -255,20 +255,19 @@ input[type=checkbox]:checked ~ #menu{
 		position: absolute;
 	}
 	.show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #fff;
-	background: #7ab1d0;
-	text-align: center;
-	padding: 15px 0;
-	display: none;
-	width: 50px;
-	nav {
-	
-	padding: 35px 0px 20px 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-decoration: none;
+		color: #fff;
+		background: #7ab1d0;
+		text-align: center;
+		padding: 15px 0px 0px 0px;
+		display: none;
+		width: 50px;
 	}
-}
-}
+	nav {
+		padding: 50px 0px 0px 0px;
+	}
+	}
 @media screen and (max-width: 1250px) {
 	header {
 		position: absolute;
