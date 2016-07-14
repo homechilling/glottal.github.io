@@ -17,9 +17,10 @@ h1 {
 	color: #01466e;
 }
 h2 {
-	text-decoration: underline;
+	//text-decoration: underline;
 	line-height: 280%;
 	padding-left: 2%;
+	color: #01466e;
 }
 h3 {
 	line-height: 110%;
@@ -132,6 +133,7 @@ footer {
 	overflow: hidden;
 	opacity: 0.90;
 	text-align: center;
+	color: #fff;
 }
 footer p, footer h3 {
 	color: #FFF;
