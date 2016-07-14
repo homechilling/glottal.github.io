@@ -12,8 +12,9 @@ body {
 h1 {
 	text-align: center;
 	font-size: 180%;
-	line-height: 120%
-	padding: 5% 0;
+	//line-height: 120%;
+	//padding: 5% 0;
+	color: #01466e;
 }
 h2 {
 	text-decoration: underline;
@@ -108,20 +109,22 @@ section{
 }
 article {
 	float: left;
-	margin: 0 auto;
-	width: 50%;
+	//margin: 0 auto;
+	width: 230px;
 	height: auto;
 	padding: 4%;
 }
+/*
 aside {
 	float: right;
-	margin: 0 auto;
-	width: 35%;
+	//margin: 0 auto;
+	//width: 70%;
 	height: auto;
-	padding: 3%;
+	//padding: 3%;
 }
+*/
 ul.gym li{
-	padding-left: 3%;
+	//padding-left: 3%;
 }
 footer {
 	background: #333333;
@@ -160,7 +163,9 @@ footer.second {
 	text-align: center;
 	opacity: 0.95;
 }
-
+div.class {
+	padding 10px 10px 10px 10px;
+}
 
 
 
@@ -189,7 +194,7 @@ li:hover ul a {
 	color: #fff;
 	height: 40px;
 	line-height: 40px;
-	width: 235px
+	width: 275px
 }
 
 /*Hover state for dropdown links*/
@@ -267,7 +272,7 @@ input[type=checkbox]:checked ~ #menu{
 	nav {
 		padding: 50px 0px 0px 0px;
 	}
-	}
+}
 @media screen and (max-width: 1250px) {
 	header {
 		position: absolute;
