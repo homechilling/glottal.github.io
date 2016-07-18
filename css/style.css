@@ -429,10 +429,9 @@ figure {
 figure>image {
 	align-content: center;
 }
-span.youtube_videos {
-	width: 50%;
-	max-width: 420px;
-}
+
+
+
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
 	body {
@@ -460,6 +459,11 @@ span.youtube_videos {
 	width:194px;
 	height: 86px;
 	background: url(../images/glottalNewLogoPhone.png) no-repeat center;
+	}
+	/* for pages other than index.html*/
+	iframe.youtube_videos{
+	width: 100%;
+	height: auto;
 	}
 }
 @media screen and (max-width: 1300px) {
