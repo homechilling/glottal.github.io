@@ -4,6 +4,7 @@
 
 			//default values for plugin options
 			var defaults = {
+				autoplay: false,
 				interval: 5000,
 				duration: 500,
 				lineheight: 1,

@@ -429,7 +429,10 @@ figure {
 figure>image {
 	align-content: center;
 }
-
+span.youtube_videos {
+	width: 50%;
+	max-width: 420px;
+}
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
 	body {
