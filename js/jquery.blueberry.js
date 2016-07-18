@@ -5,8 +5,8 @@
 			//default values for plugin options
 			var defaults = {
 				autoplay: false,
-				interval: 5000,
-				duration: 500,
+				interval: 100000,
+				duration: 0,
 				lineheight: 1,
 				height: 'auto', //reserved
 				hoverpause: false,

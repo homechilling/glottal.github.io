@@ -259,7 +259,7 @@ input[type=checkbox]:checked ~ #menu{
 	background-color:#f0f0f0;
 	width:100%;
 	height:300px;
-	margin: 90px 0px 0px 0px;
+	margin: 87px 0px 0px 0px;
 }
 
 .Breadcrumbs {
@@ -378,9 +378,9 @@ input[type=checkbox]:checked ~ #menu{
 #gal { padding:15px;}	
 
 
-.product_content {float:left; margin-top:30px; width:100%; height:Auto; font-family:Arial; line-height:150%; color:#333;background-color:#FFF;}
+.product_content {float:left; margin-top:40px; width:100%; height:Auto; font-family:Arial; line-height:150%; color:#333;background-color:#FFF;}
 
-table, th, td {
+table.sys_comp, th.sys_comp, td.sys_comp {
     border: 1px solid black;
 }
 /* for hovering glossary */
@@ -430,7 +430,21 @@ figure>image {
 	align-content: center;
 }
 
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+}
 
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
 
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
