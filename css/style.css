@@ -28,6 +28,7 @@ h3 {
 }
 p {
 	padding: 1%;
+	max-width: 960px;
 }
 img {
 	text-align: center;
@@ -465,6 +466,13 @@ figure>image {
 	  width: 960px;
 	  height: 540px;
 	  
+	}
+	.disclamer {
+	//float:right; 
+	color:#A4A4A4
+	}
+	p .calibration {
+		max-width: 960px;
 	}
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
