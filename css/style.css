@@ -452,29 +452,19 @@ figure>image {
 	 
 	/* 16x9 Aspect Ratio */
 	.intrinsic-container-16x9 {
-	  padding-bottom: 56.25%;
+	  padding-bottom: 32%;
 	}
 	 
 	/* 4x3 Aspect Ratio */
 	.intrinsic-container-4x3 {
 	  padding-bottom: 75%;
 	}
-	 
 	.intrinsic-container iframe {
-	  position: absolute;
 	  top:0;
 	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	}
-	.intrinsic-container .youtube_video {
-	  position: absolute;
-	  top:0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  max-width: 960px;
-	  max-height: 540px;
+	  width: 960px;
+	  height: 540px;
+	  
 	}
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
@@ -642,7 +632,16 @@ figure>image {
 	.show-menu {
 		display:block;
 	}
-	
-	
+	/* pages other than index.html */
+	.intrinsic-container-16x9 {
+	  padding-bottom: 56.25%;
+	}
+	.intrinsic-container iframe {
+	  position: absolute;
+	  top:0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
 }
 
