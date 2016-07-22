@@ -8,6 +8,12 @@ body {
 	font: 14px/20px Arial, San-Serif;
 	color: #000;
 	margin: 0;
+	text-align:center;
+}
+.wrapper{
+	width: 960px;
+	margin:0 auto;
+	text-align: left;
 }
 h1 {
 	text-align: center;
@@ -420,7 +426,10 @@ a.tip:hover span {
 	font-weight: 900;
 	margin-left: 0px;
 }
-
+.tabs_heading:hover
+{
+	color: #01466e;
+}
 figure {
 	width: 100%;
     max-width: 750px;
@@ -473,6 +482,15 @@ figure>image {
 	}
 	p .calibration {
 		max-width: 960px;
+	}
+	.linkInParagraph{
+	color: #01466e;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	.linkInParagraph:hover  {
+	color: #01466e;
+	text-decoration: underline;
 	}
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
@@ -650,6 +668,11 @@ figure>image {
 	  left: 0;
 	  width: 100%;
 	  height: 100%;
+	}
+	.wrapper{
+		width: 90%;
+		margin:0 auto;
+		text-align: left;
 	}
 }
 
