@@ -8,7 +8,7 @@ body {
 	font: 14px/20px Arial, San-Serif;
 	color: #000;
 	margin: 0;
-	text-align:center;
+	//text-align:center;
 }
 .wrapper{
 	width: 960px;
@@ -35,6 +35,12 @@ h3 {
 p {
 	padding: 1%;
 	max-width: 960px;
+}
+p>img {
+		width:80%;
+	}
+.second p {
+	max-width: 100%;
 }
 img {
 	text-align: center;
@@ -432,12 +438,13 @@ a.tip:hover span {
 }
 figure {
 	width: 100%;
+	//margin: 0 auto;
     max-width: 750px;
     height: auto;
 }
-figure>image {
-	align-content: center;
-}
+//figure>img {
+//	align-content: center;
+//}
 
 .ui-accordion .ui-accordion-header {
 	display: block;
@@ -492,6 +499,7 @@ figure>image {
 	color: #01466e;
 	text-decoration: underline;
 	}
+	
 /*----------------------MEDIA!!!-------------------------------*/
 @media screen and (max-width: 578px) {
 	body {
@@ -673,6 +681,9 @@ figure>image {
 		width: 90%;
 		margin:0 auto;
 		text-align: left;
+	}
+	p>img {
+		width:100%;
 	}
 }
 
